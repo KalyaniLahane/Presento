@@ -1,0 +1,29 @@
+   body {
+      margin: 0;
+      background-color: #121212;
+      color: white;
+    }
+
+    .about-section {
+      padding: 80px 50px;
+    }
+
+    .icon-box i {
+      font-size: 2rem;
+      color: #ff3b3b;
+      margin-bottom: 10px;
+    }
+
+    .btn-custom {
+      
+      padding: 10px 30px;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+
+    .btn-custom:hover {
+     
+      color: white;
+
+    }
+    
