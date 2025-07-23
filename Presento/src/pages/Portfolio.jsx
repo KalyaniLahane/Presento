@@ -50,7 +50,7 @@ export default class Portfollio extends Component {
             {
                 id:1,
                 name:'App1',
-               img:'../src/assets/app-1.jpg',
+               img:'./public/app-1.jpg',
                 text:'Lorem ipsum, dolor sit amet consectetur',
                 btn:<i className="bi bi-zoom-in"></i>
             },
