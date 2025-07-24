@@ -1,88 +1,75 @@
+
 import React from 'react'
+import '../pages/Service.css'
+import { NavLink } from 'react-router-dom'
 
-const ServicePage = () => {
-    return (
-        <>
-            <section className="contact-section bg-dark text-light">
-                <div className="container">
-                    <div className="contact-title">Services</div>
-                    <div className="contact-underline"></div>
-                    <p className="text-center mb-5 text-white">
-                        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
-                    </p>
+const Services = () => {
+  return (
+    <React.Fragment>
+      <div className='container-fluid col-md-12 bg-dark py-5'>
+        <div className='text-light text-center mb-3'>
+          <NavLink to='/' className="nav-link"><h1>SERVICES</h1></NavLink>
+          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+        <div className='container'>
+          <div className='row g-3'>
+            <div className='col-md-6'>
+              <div className='service-box d-flex align-items-start'>
+                <div className='icon me-3'>
+                  <i class="bi bi-briefcase text-danger"></i>
                 </div>
-                <div class="m-4 row text-light">
-                   <div class="col-sm-6">
-                        <div className="card contact-card p-4 mb-3" style={{background:"#393E46",color:'white'}}>
-                            <div className="text-center contact-info-icon">
-                                <i class="bi bi-briefcase icon flex-shrink-0"></i>
-                                <span className="fa fa-map-marker"></span>
-                            </div>
-                            <h5 className="text-center font-weight-bold">One</h5>
-                            <p className="text-center mb-0">A108 Adam Street, New York, NY 535022</p>
-                        </div>
-                    </div>
-                      <div class="col-sm-6">
-                        <div className="card contact-card p-4 mb-3" style={{background:"#393E46",color:'white'}}>
-                            <div className="text-center contact-info-icon">
-                               <i class="bi bi-card-checklist icon flex-shrink-0"></i>
-                                <span className="fa fa-map-marker"></span>
-                            </div>
-                            <h5 className="text-center font-weight-bold">Two</h5>
-                            <p className="text-center mb-0">A108 Adam Street, New York, NY 535022</p>
-                        </div>
-                    </div>
+                <div className='content'>
+                  <h3 className='mb-3'>Lorem Ipsum</h3>
+                  <p className='mb-0'>
+                    Pariatur dicta harum necessitatibus id error fugiat tenetur perferendis quos commodi earum nihil, alias libero excepturi assumenda reprehenderit voluptates autem! Libero consectetur perspiciatis vero dolore magnam necessitatibus
+                  </p>
                 </div>
-
-                <div class="m-4 row text-light">
-                   <div class="col-sm-6">
-                        <div className="card contact-card p-4 mb-3" style={{background:"#393E46",color:'white'}}>
-                            <div className="text-center contact-info-icon">
-                                <i class="bi bi-bar-chart icon flex-shrink-0"></i>
-                                <span className="fa fa-map-marker"></span>
-                            </div>
-                            <h5 className="text-center font-weight-bold">Three</h5>
-                            <p className="text-center mb-0">A108 Adam Street, New York, NY 535022</p>
-                        </div>
-                    </div>
-                      <div class="col-sm-6">
-                        <div className="card contact-card p-4 mb-3" style={{background:"#393E46",color:'white'}}>
-                            <div className="text-center contact-info-icon">
-                                <i class="bi bi-binoculars icon flex-shrink-0"></i>
-                                <span className="fa fa-map-marker"></span>
-                            </div>
-                            <h5 className="text-center font-weight-bold">Four</h5>
-                            <p className="text-center mb-0">A108 Adam Street, New York, NY 535022</p>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div className='col-md-6'>
+              <div className='service-box d-flex align-items-start'>
+                <div className='icon me-3'>
+                  <i class="bi bi-journal-text text-danger"></i>
                 </div>
-                <div class="m-4 row text-light">
-                   <div class="col-sm-6">
-                        <div className="card contact-card p-4 mb-3" style={{background:"#393E46",color:'white'}}>
-                            <div className="text-center contact-info-icon">
-                                <i class="bi bi-brightness-high icon flex-shrink-0"></i>
-                                <span className="fa fa-map-marker"></span>
-                            </div>
-                            <h5 className="text-center font-weight-bold">Five</h5>
-                            <p className="text-center mb-0">A108 Adam Street, New York, NY 535022</p>
-                        </div>
-                    </div>
-                      <div class="col-sm-6">
-                        <div className="card contact-card p-4 mb-3" style={{background:"#393E46",color:'white'}}>
-                            <div className="text-center contact-info-icon">
-                               <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
-                                <span className="fa fa-map-marker"></span>
-                            </div>
-                            <h5 className="text-center font-weight-bold">Six</h5>
-                            <p className="text-center mb-0">A108 Adam Street, New York, NY 535022</p>
-                        </div>
-                    </div>
+                <div className='content'>
+                  <h3 className='mb-3'>Dolor Sitema</h3>
+                  <p className='mb-0'>
+                    Harum praesentium optio fuga, aspernatur nesciunt, sunt necessitatibus fugit vel consequatur ut incidunt adipisci expedita eum molestiae inventore cumque consectetur perferendis illo, quaerat ullam facilis odit similique doloremque!
+                  </p>
                 </div>
-               
-            </section>
-
-        </>
-    )
+              </div>
+            </div>
+            <div className='col-md-6'>
+              <div className='service-box d-flex align-items-start'>
+                <div className='icon me-3'>
+                  <i className="bi bi-bar-chart text-danger"></i>
+                </div>
+                <div className='content'>
+                  <h3 className='mb-3'>Sed ut perspiciatis</h3>
+                  <p className='mb-0'>
+                    Aperiam natus voluptas quam molestias nobis aliquam distinctio, inventore, autem quisquam ipsam repellat sapiente expedita soluta. Neque modi excepturi beatae recusandae at. Perferendis cupiditate molestias sint hic suscipit obcaecati
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='col-md-6'>
+              <div className='service-box d-flex align-items-start'>
+                <div className='icon me-3'>
+                  <i class="bi bi-calendar-week text-danger"></i>
+                </div>
+                <div className='content'>
+                  <h3 className='mb-3'>Magni Dolors</h3>
+                  <p className='mb-0'>
+                    itaque recusandae ad veritatis, neque, vel doloremque? Molestiae facere distinctio sunt temporibus tempora voluptates natus officiis obcaecati voluptate illum veniam quidem quia perspiciatis doloremque rem saepe recusandae voluptatibus sequi eveniet eius
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </React.Fragment>
+  )
 }
 
-export default ServicePage
+export default Services
